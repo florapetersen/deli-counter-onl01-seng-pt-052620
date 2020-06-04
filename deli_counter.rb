@@ -16,5 +16,5 @@ def take_a_number(katz_deli, newperson)
 end
 
 def now_serving(katz_deli)
-  puts "Currently serving #{katz_deli[0].}"
+  puts "Currently serving #{katz_deli[0]}."
 end
