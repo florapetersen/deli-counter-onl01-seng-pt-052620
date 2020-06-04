@@ -1,5 +1,3 @@
-katz_deli = []
-
 def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
@@ -12,7 +10,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(new_array, newperson)
-  new_array << newperson
-  puts "Welcome #{newperson}. You are number #{new_array.length} in line."
+def take_a_number(katz_deli, newperson)
+  katz_deli << newperson
+  puts "Welcome #{newperson}. You are number #{katz_deli.length} in line."
 end
